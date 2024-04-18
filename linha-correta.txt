@@ -1,4 +1,4 @@
-docker build -t minha-imagem-nginx .
+docker build -t rm99433-nginx .
 
 docker run --name container-nginx -d -p 8080:80 minha-imagem-nginx
 
